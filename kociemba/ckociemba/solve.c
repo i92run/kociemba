@@ -13,7 +13,7 @@ int main(int argc, char **argv)
         }
         char *sol = solution(
             facelets,
-            24,
+            20,
             1000,
             0,
             "cache"
