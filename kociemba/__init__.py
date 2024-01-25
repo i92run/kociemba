@@ -40,7 +40,7 @@ except ImportError as e:
         }
         if pattern is not None:
             cube = search.patternize(cube, pattern)
-        res = search.Search().solution(cube, 24, 1000, False).strip()
+        res = search.Search().solution(cube, 20, 1000, False).strip()
         if res in errors:
             raise ValueError(errors[res])
         else:
